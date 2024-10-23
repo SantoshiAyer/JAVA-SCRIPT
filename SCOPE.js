@@ -9,6 +9,34 @@ const addTwo = function(num) {
 };
 console.log(addTwo(2)); // Call the function to log the result
 
+//nested scope
+function one(){
+    const username='santu'
+
+    function two() {
+        const website="youtube"
+        console.log(username);
+    }
+    //console.log(website);
+    two()
+}
+//one()
+
+if(true){
+    const username="santu"
+    if(username= = ="santu"){
+        const website="youtube"
+        console.log(username+website)
+    }
+    console.log(website);
+}
+console.log(username);
+
+
+
+
+
+
 
 
 
