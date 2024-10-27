@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Object Example</title>
+</head>
+<body>
+    <button id="btn">Click Me!</button>
+    <script>
+        const btn = document.getElementById('btn');
+
+        btn.addEventListener('click', function(event) {
+            // Access properties of the event object
+            console.log('Event Type:', event.type); // Logs "click"
+            console.log('Target:', event.target); // Logs the button element
+            console.log('Current Target:', event.currentTarget); // Also logs the button element
+
+            // Prevent default action (if applicable)
+            event.preventDefault();
+
+            // Stop propagation (if needed)
+            // event.stopPropagation();
+        });
+    </script>
+</body>
+</html>
