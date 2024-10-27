@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+#box {
+    margin-top: 20px; /* Space between button and box */
+    padding: 20px; /* Space inside the box */
+    width: 200px; /* Set a width for the box */
+    height: fit-content; /* Height adjusts based on content */
+    display: flex; /* Use flex display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+}

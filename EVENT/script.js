@@ -12,9 +12,9 @@ button.addEventListener('click', function() {
     console.log('Button was clicked!');
 });
 
-let div=document.querySelector("div")
+let box=document.querySelector("#box")
 
-div.onmouseover=()=>{
+box.onmouseover=()=>{
     console.log("this is inside div");
 }
 
