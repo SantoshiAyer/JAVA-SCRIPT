@@ -6,3 +6,9 @@ btn1.onclick = () => {
     a++;
     console.log(a); // This will now log 13
 };
+
+const button = document.querySelector('#btn');
+button.addEventListener('click', function() {
+    console.log('Button was clicked!');
+});
+
