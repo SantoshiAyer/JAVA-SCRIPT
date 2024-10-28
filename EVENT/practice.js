@@ -7,7 +7,8 @@ modeBtn.addEventListener('click',()=>{
      document.querySelector("body").style.backgroundColor="black";
     }else{
         currMode="light";
+        document.querySelector("body").style.backgroundColor="white";
     }
     console.log(currMode);
-})
+});
 
