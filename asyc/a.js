@@ -33,8 +33,9 @@ async function getDataWithErrorHandling() {
 
 getDataWithErrorHandling();
 
-Using with APIs
-Here's an example of using async and await with the Fetch API to get data from a server:
+
+//Using with APIs
+//Here's an example of using async and await with the Fetch API to get data from a server:
 
 
 
@@ -54,7 +55,7 @@ async function fetchUserData() {
 fetchUserData();
 
 //Summary
-async makes a function return a Promise.
-await pauses the execution until the Promise is resolved or rejected.
-Use try...catch for error handling within async functions.
+// async makes a function return a Promise.
+// await pauses the execution until the Promise is resolved or rejected.
+// Use try...catch for error handling within async functions.
 
