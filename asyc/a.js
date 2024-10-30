@@ -14,4 +14,4 @@ async function getData() {
     console.log(data); // Logs "Data fetched!"
 }
 
-getData(); // Call the async function
+getData(); // Call the async functions
