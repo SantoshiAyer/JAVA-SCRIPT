@@ -32,6 +32,7 @@ async function getDataWithErrorHandling() {
 }
 
 getDataWithErrorHandling();
+
 Using with APIs
 Here's an example of using async and await with the Fetch API to get data from a server:
 
