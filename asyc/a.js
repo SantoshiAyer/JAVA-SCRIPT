@@ -18,7 +18,7 @@ getData(); // Call the async functions
 
 
 
-You can use try...catch to handle errors in async functions:
+//You can use try...catch to handle errors in async functions:
 
 
 async function getDataWithErrorHandling() {
