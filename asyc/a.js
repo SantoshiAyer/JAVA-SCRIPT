@@ -35,8 +35,8 @@ getDataWithErrorHandling();
 Using with APIs
 Here's an example of using async and await with the Fetch API to get data from a server:
 
-javascript
-Copy code
+
+
 async function fetchUserData() {
     try {
         const response = await fetch("https://jsonplaceholder.typicode.com/users/1");
