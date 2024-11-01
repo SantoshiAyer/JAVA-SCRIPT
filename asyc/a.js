@@ -55,7 +55,7 @@ async function fetchUserData() {
 fetchUserData();
 
 //Summary 
-// async makes a function return a Promise.
+// async makes a function return a Promise..
 // await pauses the execution until the Promise is resolved or rejected.
 // Use try...catch for error handling within async functions.
 
