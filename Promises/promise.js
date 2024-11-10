@@ -36,7 +36,7 @@ fetchData
 console.log(message); // Logs after 2 seconds: 'Data fetched successfully!'
 })
 .catch((error) => {
-console.log(error); // Logs if the promise is rejected
+console.log(error); // Logs if the promise is rejected.
 });
 
 
