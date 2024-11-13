@@ -9,7 +9,7 @@ reject('Operation failed!');
 }
 });
 
-//handling promises results.
+//handling promises results..
 myPromise
 .then(result => {
 console.log(result); // Logs: 'Operation successful!'
