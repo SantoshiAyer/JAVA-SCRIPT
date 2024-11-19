@@ -18,10 +18,10 @@ console.log(result); // Logs: 'Operation successful!'
 console.log(error); // If promise is rejected, log the error message
 });
 
-//Asynchronous Operation
+//Asynchronous Operation.
 let fetchData = new Promise((resolve, reject) => {
 setTimeout(() => {
-let dataFetched = true; // Change this to false to simulate an error
+let dataFetched = true; // Change this to false to simulate an error..
 
 if (dataFetched) {
 resolve("Data fetched successfully!");
