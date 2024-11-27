@@ -15,7 +15,7 @@ myPromise
 console.log(result); // Logs: 'Operation successful!'
 })
 .catch(error => {
-console.log(error); // If promise is rejected, log the error message
+console.log(error); // If promise is rejected, log the error message.
 });
 
 //Asynchronous Operation..
